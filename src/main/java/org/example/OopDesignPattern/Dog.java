@@ -8,8 +8,15 @@ public class Dog extends Animal{
 
     public Dog(){
         super();
-
         setSound("Bark");
+    }
+
+    public void changeVar(int randNum){
+
+        randNum = 12;
+
+        System.out.println("randNum in method: " + randNum);
+
     }
 
 }
