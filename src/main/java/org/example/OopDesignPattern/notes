@@ -1,0 +1,27 @@
+        What's an Abstract Class?
+
+If you want the power of polymorphism without the work
+
+abstract public class Creature
+
+public abstract void setName();
+
+There are no abstract fields
+
+All methods don't have to be abstract
+
+You can have static methods
+
+
+
+
+                What's an interface
+A class with only abstract methods
+
+You can add as many interfaces to a class using implements as you want
+
+You can only use public static and final fields
+
+interfaces provide the ultimate in flexibility
+
+classes from different inheritance trees can use a common interface

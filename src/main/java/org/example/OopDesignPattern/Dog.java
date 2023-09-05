@@ -12,11 +12,12 @@ public class Dog extends Animal{
     }
 
     public void changeVar(int randNum){
-
         randNum = 12;
 
         System.out.println("randNum in method: " + randNum);
-
     }
 
+    private void bePrivate(){
+        System.out.println("In a priv"); 
+    }
 }
